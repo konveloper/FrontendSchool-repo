@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+
+*{
+font-family: 'Montserrat';
+}
+
+body,h1,h2{
+  margin:0;
+  padding:0;
+}
+
+.mainbox{
+  width: 800px;
+  padding: 30px;
+  margin: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 1px 20px 0 rgba(0,0,0,0.1);
+}
+
+.name{
+  font-weight: bold;
+  text-align: right;
+}
+
+.name .job{
+  font-size: 17px;
+  color:#7c7c7c;
+}
+
+h1{
+  font-size: 60px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 10px;
+}
+
+h2{
+  font-size: 20px;
+  font-weight: lighter;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.aboutme{
+padding: 20px;
+}
+
+.aboutme p{
+  font-size: 12px;
+
+}
+.experience{
+  padding: 20px;
+}
+
+.title-text{
+  font-size: 12px;
+  font-weight: bold;
+  color: #282828;
+  float: left;
+  }
+  
+.year-text{
+  font-size:12px;
+  font-weight: bold
+  color: #282828;
+  float: right;
+  }
+
+.float-wrap{
+    overflow:hidden;
+  }
+
+.desc-text{
+  font-size: 10px;
+  color: #282828;
+  padding-left: 10px;
+  }
+
+.activities{
+  padding: 20px;
+}
+
+footer{ 
+  margin: 10px;
+  text-align: center;
+ }
+
+.github{
+    font-size: 12px;
+    padding:10px;
+    border-radius: 20px;
+    color: gray;
+    border: 1px solid gray;
+    text-decoration: none;
+  }
