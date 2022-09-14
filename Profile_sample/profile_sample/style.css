@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+  font-family: 'Montderrat';
+  }
+
+h1, 
+p, 
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  list-style-type: none;
+}
+
+body {
+  background-image: url(images/background.png); 
+ }
+
+.wrapper{
+  background-color: #ddd;
+  width: 800px;
+  margin: 0 auto;
+}
+
+header{
+  color: white;
+  background-image: url(images/cover04.png);
+  background-size: cover;
+  text-align: center;
+  padding: 50px 0;
+}
+
+header .profile_img{
+  border-radius: 50%;
+}
+
+header h1{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+header p{
+border-top: 5px solid;
+width: fit-content;
+margin: 0 auto;
+padding: 10px 20px;
+}
+
+.section{
+  background-image: url(images/icon-information.png);
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: right 30px center;
+  margin: 20px;
+  padding: 20px;
+}
+
+.section.skills{
+  background-image: url(images/icon-skills.png);
+}
+
+.section h2{
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20x;
+}
+
+footer{
+  text-align: center;
+  background-color: white;
+  padding: 20px 0;
+}
+
+footer a{
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.link{
+  padding: 3px 20px;
+  display: inline-block;
+  border-radius: 40px;
+  border: 4px solid currentColor;
+}
+
+.link.github{
+  color: black;
+}
+
+.link.contact{
+  color: cornflowerblue;
+}
