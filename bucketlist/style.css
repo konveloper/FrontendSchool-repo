@@ -65,7 +65,8 @@ active
 on
 seclected
 highlight
-done*/
+done
+*/
 
 .lists li:active{
   border: 4px solid dodgerblue;
