@@ -1,0 +1,189 @@
+/* animation */
+@keyframes ani-ear-left {
+    to{
+        transform: rotate(-30deg);
+    }
+    from{
+        transform: rotate(-40deg); translate:(-5px);
+    }
+}
+@keyframes ani-ear-right {
+    to{
+        transform: rotate(30deg);
+    }
+    from{
+        transform: rotate(40deg); translate:(5px);
+    }
+}
+@keyframes ani-nose {
+    to{
+        top: 120px;
+    }
+    from{
+        top: 123px;
+    }
+}
+@keyframes ani-mouth {
+    to{
+        height: 10px;
+    }
+    from{
+        height: 5px;
+    }
+}
+@keyframes ani-bubble {
+    to{
+        transform: rotate(3deg);
+        width: 100px;
+        height: 100px;
+    }
+    from{
+        transform: rotate(-3deg);
+        width: 105px;
+        height: 105px;
+    }
+}
+
+:root{
+    --pri: antiquewhite;
+}
+
+/* reset */
+body{
+    margin: 0;
+    padding: o;
+}   
+
+/* design */
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:lightgreen;
+}
+
+.bear{
+    position: relative;
+    top: 100px;
+    margin: 50px auto;
+    width: 400px;
+    height: 400px;
+}
+
+.bear .ear{
+    position: absolute;
+    top:0;
+    width: 100px;
+    height: 90px;
+    background-color: var(--pri);
+}
+
+.bear .ear.left{
+    top: 60px;
+    left: 25px;
+    transform: rotate(-30deg);
+    border-radius: 70% 70% 0 0;
+    box-shadow: 0 0 20px rgba(0,0,0, 0.3);
+    animation: ani-ear-left 1s infinite ;
+}
+
+.bear .ear.right{
+    top: 60px;
+    right: 25px;
+    transform: rotate(+30deg);
+    border-radius: 70% 70% 0 0;
+    box-shadow: 0 0 20px rgba(0,0,0, 0.3);
+    animation: ani-ear-right 1s infinite ;
+}
+
+.bear .face {
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    width: 350px;
+    height: 300px;
+    border-radius: 50% 50% 45% 45%;
+    background-color: var(--pri);
+    box-shadow: 0 0 20px rgba(0,0,0, 0.3);
+}
+
+.eye {
+    position: absolute;
+    top: 100px;
+    width: 45px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #000;
+}
+
+.eye.left {
+    left:95px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.eye.right {
+    right:95px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.eyelid-left {
+    position: relative;
+    top: 73px;
+    left: 100px;
+    width: 75px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: var(--pri);            
+    z-index: 20;
+}
+
+.eyelid-right {
+    position: relative;
+    top: 43px;
+    left: 178px;
+    width: 75px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: var(--pri);
+    z-index: 20;
+}
+
+.nose {
+    position: absolute;
+    top: 120px;
+    left: 170px;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50% 50% 30% 30%;
+    animation: ani-nose 2s infinite ;
+} 
+
+.mouth {
+    position: absolute;
+    top: 138px;
+    left: 168px;
+    width: 15px;
+    height: 10px;
+    border-radius: 40% 40% 30% 30%;
+    background-color: lightcoral;
+    animation: ani-mouth 2s infinite ;
+}
+
+.bubble {
+    position: absolute;
+    top: 168px;
+    left: 95px;
+    width: 80px;
+    height: 100px;
+    border-radius: 50% 20% 50% 50%;
+    background-color:turquoise;
+    rotate: 5deg;
+    opacity: 0.3;
+    animation: ani-bubble 2s infinite ;
+}
