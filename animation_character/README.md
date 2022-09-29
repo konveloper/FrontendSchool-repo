@@ -1,2 +1,2 @@
-Uploading 화면 기록 2022-09-29 오후 10.29.57.mov…
-🌟천하제일 캐릭터 만들기 경진 대회🌟
+![bear](https://user-images.githubusercontent.com/109451148/193047732-bbfa8589-0de3-4a4c-b34e-a19582315aaa.gif)
+🌟멋쟁이사자처럼 3기 천하제일 캐릭터 만들기 경진대회🌟
