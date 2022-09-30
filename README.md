@@ -6,5 +6,5 @@
   <li><a href="https://github.com/konveloper/FrontendSchool-repo/tree/main/bucketlist">bucketlist</a></li>
   <li><a href="https://github.com/konveloper/FrontendSchool-repo/tree/main/login_ui">login_ui</a></li>
   <li><a href="https://github.com/konveloper/FrontendSchool-repo/tree/main/10000hours">10000hours</a></li>
-  <li><a href="https://github.com/konveloper/FrontendSchool-repo/tree/main/animation_character">animation_chracter</a></li>
+  <li><a href="https://github.com/konveloper/FrontendSchool-repo/tree/main/animation_character">animation_character</a></li>
  </ol>
