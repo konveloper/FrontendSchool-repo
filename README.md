@@ -4,8 +4,8 @@
   <li><a href="https://github.com/konveloper/FrontendSchool-repo/tree/main/Profile_sample">profile sample</a></li>
   <li><a href="https://github.com/konveloper/FrontendSchool-repo/tree/main/animals_desc">animals page</a></li>
   <li><a href="https://github.com/konveloper/FrontendSchool-repo/tree/main/bucketlist">bucketlist</a></li>
-  <li><a href="https://github.com/konveloper/FrontendSchool-repo/tree/main/login_ui">login_ui</a></li>
+  <li><a href="https://github.com/konveloper/FrontendSchool-repo/tree/main/login_ui">login ui</a></li>
   <li><a href="https://github.com/konveloper/FrontendSchool-repo/tree/main/10000hours">10000hours</a></li>
-  <li><a href="https://github.com/konveloper/FrontendSchool-repo/tree/main/animation_character">animation_character</a></li>
+  <li><a href="https://github.com/konveloper/FrontendSchool-repo/tree/main/animation_character">animation character</a></li>
   <li><a href=https://github.com/konveloper/FrontendSchool-repo/tree/main/profile_sample(Tailwind_CSS)>profile sample(Tailwind CSS)</a></li>
  </ol>
