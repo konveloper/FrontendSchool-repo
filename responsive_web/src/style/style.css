@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+    format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff')
+    format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body {
+  font-family: 'Pretendard-Regular';
+  background: linear-gradient(334deg, #0288d1, #00bcd4, #dce775);
+  background-size: 180% 180%;
+  animation: gradient-animation 6s ease infinite;
+}
+
+main {
+  margin: 20px;
+}
+
+.cont-title {
+  border: 3px solid #fff;
+  margin-bottom: 10px;
+}
+
+.cont-title h1 {
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.cont-content {
+  display: flex;
+  gap: 10px;
+}
+
+.cont-sidebar {
+  width: 20%;
+  border: 1px solid #fff;
+  background-color: transparent;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.cont-sidebar li {
+  padding: 15px;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.cont-drink {
+  width: 80%;
+  border: 1px solid #fff;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.cont-drink .cont-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cont-drink li {
+  background-color: #fff;
+  box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.cont-drink .cont-img {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.cont-drink .cont-img img {
+  width: 200px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(50, 50);
+  object-fit: cover;
+  margin: auto;
+}
+
+.cont-drink p {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 8px;
+}
+
+@media (max-width: 1250px) {
+  .cont-drink li {
+    background-color: #fff9c4;
+  }
+}
+
+@media (max-width: 950px) {
+  .cont-drink li {
+    background-color: #fff176;
+  }
+}
+
+@media (max-width: 650px) {
+  .cont-drink li {
+    background-color: #ffeb3b;
+  }
+}
