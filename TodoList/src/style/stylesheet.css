@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.ir {
+  position: absolute;
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+body {
+  background-color: antiquewhite;
+  margin: 0;
+}
+
+#app {
+  margin: 100px auto;
+  width: 500px;
+  height: 600px;
+  box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: white;
+}
+
+.cont {
+  width: 350px;
+  height: 400px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.title {
+  font-size: 30px;
+  padding-bottom: 5px;
+}
+
+.todoInput {
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 10px;
+  background-color: lightgray;
+  border-width: 0;
+  outline: none;
+  width: 250px;
+}
+
+.todoInput::placeholder {
+  color: grey;
+}
+
+.submitBtn {
+  background-color: white;
+  border: 1px solid lightcoral;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: lightcoral;
+}
+
+ul {
+  list-style: none;
+  width: 350px;
+  height: 400px;
+  margin: 20px 0;
+  overflow: auto;
+}
+
+ul::-webkit-scrollbar {
+  display: none;
+}
+
+ul > li {
+  padding-bottom: 5px;
+  margin: 10px 0;
+  border-bottom: 1px solid lightgrey;
+}
+
+.deleteBtn {
+  border-style: none;
+  float: right;
+  background-color: transparent;
+  color: lightcoral;
+}
